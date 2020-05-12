@@ -1,29 +1,77 @@
 body{
-    background-color: lightgray;
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     line-height: 30px;
+}
+header{
+     background-color: #556568;
+     text-align: center;
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+
+h1, h2{
+     font-family: 'Ubuntu', sans-serif;
 }
 
-h1{
-font-size: 30px;
-color: rgb(21, 177, 47);
+header h1{
+     color: white;
+     font-size: 50px;
+  }
+
+header img{
+     border-radius: 170px;
+     width: 300px;
+     border: 20px solid #ffffff ;
+}
+
+main{
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 0 20px;
+}
+
+main img{
+     max-width: 100%;
 }
 
 h2{
-color: red;
-font-size: 20px;
+     font-size: 30px;
+     color: #556568;
+     margin: 40px 0px 10px;
 }
 
-.big{
-font-size: 50px;
+a{
+     color: #556568;
 }
 
-.uppercase{
-text-transform: uppercase;
+a:hover{
+     color: #244854;
 }
 
-.big.uppercase{
-color: rgb(0, 217, 255);
+footer{
+     background-color: #556568;
+     text-align: center;
+     color: #ffffff;
+     padding: 50px;
 }
 
-h1 span{
-color: violet;
+footer p{
+    margin: 0px;
+}
+
+footer a{
+     color: #ffffff;
+}
+
+footer a:hover{
+     opacity: .5;
+     background-color: transparent;
+}
+
+p.caption{
+    color: #999999;
+    font-style: italic;
+    margin-top: 0px;
 }
